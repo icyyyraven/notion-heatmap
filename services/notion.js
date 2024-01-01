@@ -18,8 +18,7 @@ module.exports = async function getPomo() {
         {
           "property": "Date",
           "date": {
-            "is_not_empty": true,
-            "before": today
+            "is_not_empty": true
                   }
         }    
             ]

@@ -39,7 +39,7 @@ module.exports = async function getPomo() {
   const rawPomos = results.map(page => {
     return {
       "date": page.properties.Date.date.start,
-      "pomos": page.properties['Actual🍅'].number
+      "pomos": page.properties['TimeLength'].number
     }
   })
 

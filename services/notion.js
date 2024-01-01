@@ -20,15 +20,10 @@ module.exports = async function getPomo() {
           "date": {
             "is_not_empty": true,
             "before": today
-          }
-        },
-        {
-          "property": "Status",
-          "status": {
-            "equals": 'Done'
-          }
-        },]
-    },
+                  }
+        }    
+            ]
+            },
     sorts: [{
       "property": "Date",
       "direction": "ascending"
